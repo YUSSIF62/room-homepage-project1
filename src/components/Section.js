@@ -14,7 +14,7 @@ export default function Section() {
           <h2 className="text-2xl font-semibold uppercase lg:text-3xl">
             About our furniture
           </h2>
-          <p className="mt-6 opacity-75 text-slate-900">
+          <p className="mb-6 opacity-75 text-slate-900">
             Our multifunctional collection blends design and function to suit
             your individual taste. Make each room unique, or pick a cohesive
             theme that best express your interests and what inspires you. Find
