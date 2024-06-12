@@ -65,11 +65,11 @@ export default function Showcase() {
                 <img src={item.mobile} alt={item.title} className="w-full" />
               </picture>
 
-              <ul className="absolute -bottom-2 right-0 flex">
+              <ul className="absolute right-0 flex -bottom-2">
                 <li>
                   <button
                     onClick={previousSlide}
-                    className="bg-black hover:bg-neutral-700 transition-all duration-200"
+                    className="transition-all duration-200 bg-black hover:bg-neutral-700"
                   >
                     <img src={left} alt="" className="p-6" />
                   </button>
@@ -77,7 +77,7 @@ export default function Showcase() {
                 <li>
                   <button
                     onClick={nextSlide}
-                    className="bg-black hover:bg-neutral-700 transition-all duration-200"
+                    className="transition-all duration-200 bg-black hover:bg-neutral-700"
                   >
                     <img src={right} alt="" className="p-6" />
                   </button>
@@ -86,10 +86,10 @@ export default function Showcase() {
             </div>
 
             <div className="p-8 lg:p-12">
-              <h1 className="text-slate-900 text-3xl lg:text-5xl">
+              <h1 className="text-3xl text-slate-900 lg:text-5xl">
                 {item.title}
               </h1>
-              <p className="text-slate-900 opacity-75 my-6">{item.desc}</p>
+              <p className="my-6 opacity-75 text-slate-900">{item.desc}</p>
               <button
                 className="flex items-center gap-4 uppercase hover:opacity-75"
                 style={{
