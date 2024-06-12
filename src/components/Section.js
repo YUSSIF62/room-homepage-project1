@@ -2,7 +2,7 @@ import React from "react"
 import aboutDark from "../images/image-about-dark.jpg"
 import aboutLight from "../images/image-about-light.jpg"
 
-export default function SectionTwo() {
+export default function Section() {
   return (
     <>
       <section className="grid grid-cols-1 lg:grid-cols-3">
@@ -11,10 +11,10 @@ export default function SectionTwo() {
         </article>
 
         <article className="p-8 lg:p-12">
-          <h2 className="font-semibold text-2xl lg:text-3xl uppercase">
+          <h2 className="text-2xl font-semibold uppercase lg:text-3xl">
             About our furniture
           </h2>
-          <p className="text-slate-900 opacity-75 mt-6">
+          <p className="mt-6 opacity-75 text-slate-900">
             Our multifunctional collection blends design and function to suit
             your individual taste. Make each room unique, or pick a cohesive
             theme that best express your interests and what inspires you. Find
